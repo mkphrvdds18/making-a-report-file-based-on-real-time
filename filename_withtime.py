@@ -18,3 +18,15 @@ print(log_file)
 write_file = open(log_file, 'w')
 write_file.close()
 
+
+""" output:
+#this is system time format
+2018-05-30 23:37:36.509681
+
+# remove the ':' from 23:37 ; second is not used; file extension added as 'txt'
+Test_report_2018-05-30_2337.txt
+
+# this is final name :
+Test_report_2018-05-30_2337
+
+"""
